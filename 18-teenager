@@ -1,9 +1,11 @@
 public Boolean isTeenager(Integer age) {
     // Ternary-if, equal to
+    /*
     if (age < 13 || age > 19) {
         return false;
     } else {
         return true;
     }
-    // return age < 13 || age > 19 ? false : true;
+    */
+    return age < 13 || age > 19 ? false : true;
 }
