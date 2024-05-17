@@ -1,7 +1,7 @@
 public List<Integer> positiveIntegers(List<Integer> numbers) {
     List<Integer> positiveOnly = new List<Integer>();
-    for (Integer number : numbers) {
-        if (number > 0) positiveOnly.add(number);
+    for (Integer num : numbers) {
+        if (num > 0) positiveOnly.add(num);
     }
-    return number;
+    return positiveOnly;
 }
