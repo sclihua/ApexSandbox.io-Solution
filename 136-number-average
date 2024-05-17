@@ -4,6 +4,6 @@ public Decimal average(List<Decimal> numbers){
     for (Decimal num : numbers) {
         sum += num;
     }
-    ave = Math.round(sum/numbers.size(), 2);
-    return ave;
+    ave = sum/numbers;
+    return Math.round(ave, 2);
 }
