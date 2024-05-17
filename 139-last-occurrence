@@ -1,5 +1,5 @@
 public static Integer findLast(List<Integer> nums, Integer target) {
-   if (nums = null || target = null) return -1;
+   if (nums = null || target = null) { return -1; }
    Integer index = -1;
    for (Integer i = 0; i < nums.size(); i++) {
        if (target == nums[i]) index = i;
