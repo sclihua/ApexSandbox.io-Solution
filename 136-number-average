@@ -1,0 +1,9 @@
+public Decimal average(List<Decimal> numbers){
+    Decimal ave = 0;
+    Decimal sum = 0;
+    for (Decimal num : numbers) {
+        sum += num;
+    }
+    ave = Math.round(sum/numbers.size(), 2);
+    return ave;
+}
