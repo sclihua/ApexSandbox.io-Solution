@@ -5,5 +5,5 @@ public Decimal average(List<Decimal> numbers){
         sum += num;
     }
     ave = sum / numbers.size();
-    return ave.setScale(2, System.RoundingMode.HALF_EVEN);
+    return ave.setScale(2, RoundingMode.HALF_EVEN);
 }
