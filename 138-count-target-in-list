@@ -1,0 +1,10 @@
+public Integer findTargetCount(List<Integer> nums, Integer target) {
+    if (nums != null && target != null) {
+        Integer n = 0;
+        for (Integer num : nums) {
+            if (num == target) n++;
+        }
+    } else {
+        return 0;
+    }
+}
