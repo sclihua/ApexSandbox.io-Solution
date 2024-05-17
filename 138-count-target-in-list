@@ -4,6 +4,7 @@ public Integer findTargetCount(List<Integer> nums, Integer target) {
         for (Integer num : nums) {
             if (num == target) n++;
         }
+        return n;
     } else {
         return 0;
     }
